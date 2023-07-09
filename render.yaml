@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: arabic-dict-strapi
     env: node
     plan: free
     buildCommand: yarn install && yarn build
